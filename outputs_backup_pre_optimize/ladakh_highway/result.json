@@ -1,0 +1,107 @@
+{
+  "model_arch": "ChangeFormerV6 -- Siamese Transformer Architecture",
+  "t1_path": "data/sentinel/ladakh_highway/T1_2024-05-01.tif",
+  "t2_path": "data/sentinel/ladakh_highway/T2_2024-07-01.tif",
+  "region": "ladakh_highway",
+  "t1_date": "2024-05-01",
+  "t2_date": "2024-07-01",
+  "bbox": [
+    77.5,
+    34.0,
+    77.8,
+    34.3
+  ],
+  "threshold": 0.05,
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.50234375,
+                34.0796875
+              ],
+              [
+                77.50234375,
+                34.07265625
+              ],
+              [
+                77.50703125,
+                34.07265625
+              ],
+              [
+                77.50703125,
+                34.0796875
+              ],
+              [
+                77.50234375,
+                34.0796875
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "id": 1,
+          "confidence_pct": 8.6,
+          "area_km2": 0.338,
+          "change_category": "general_change",
+          "ndvi_delta": 0.1298999935388565,
+          "pixel_area": 23
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.62890625,
+                34.09375
+              ],
+              [
+                77.62890625,
+                34.08203125
+              ],
+              [
+                77.64296875,
+                34.08203125
+              ],
+              [
+                77.64296875,
+                34.09375
+              ],
+              [
+                77.62890625,
+                34.09375
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "id": 2,
+          "confidence_pct": 9.4,
+          "area_km2": 1.69,
+          "change_category": "general_change",
+          "ndvi_delta": -0.017400000244379044,
+          "pixel_area": 105
+        }
+      }
+    ]
+  },
+  "ai_summary": "ChangeFormerV6 (Siamese Transformer) analysed ladakh_highway between 2024-05-01 and 2024-07-01. Detected 2 change polygons covering a total area of 2.03 km2, with an average model confidence of 9.0%. The dominant change type is general land-cover change (2.03 km2), concentrated in the southwest region. Mixed spectral signatures suggest complex land-cover transition requiring ground-truth verification.",
+  "stats": {
+    "total_area_km2": 2.028,
+    "n_polygons": 2,
+    "avg_confidence_pct": 9.0,
+    "changed_pixel_pct": 0.2,
+    "ndvi_global_delta": 0.0088,
+    "categories": {
+      "general_change": 2.028
+    }
+  }
+}

@@ -1,0 +1,32 @@
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.DS_Store
+./sha256
+./sha256.pub
+
+# Logs
+*.log
+backend.log
+fetch_demo.log
+
+# Node / Frontend dependencies and build outputs
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# Large checkpoints, datasets & output directories
+checkpoints/
+data/
+outputs/
+
+# Temporary / lock files & IDE
+~$*
+.vscode/
+.idea/
+.claude/
+.env
+.venv
+venv/

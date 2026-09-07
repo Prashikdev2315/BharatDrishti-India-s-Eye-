@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.50234375,
+              34.0796875
+            ],
+            [
+              77.50234375,
+              34.07265625
+            ],
+            [
+              77.50703125,
+              34.07265625
+            ],
+            [
+              77.50703125,
+              34.0796875
+            ],
+            [
+              77.50234375,
+              34.0796875
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "confidence_pct": 8.6,
+        "area_km2": 0.338,
+        "change_category": "general_change",
+        "ndvi_delta": 0.1298999935388565,
+        "pixel_area": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62890625,
+              34.09375
+            ],
+            [
+              77.62890625,
+              34.08203125
+            ],
+            [
+              77.64296875,
+              34.08203125
+            ],
+            [
+              77.64296875,
+              34.09375
+            ],
+            [
+              77.62890625,
+              34.09375
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "confidence_pct": 9.4,
+        "area_km2": 1.69,
+        "change_category": "general_change",
+        "ndvi_delta": -0.017400000244379044,
+        "pixel_area": 105
+      }
+    }
+  ]
+}

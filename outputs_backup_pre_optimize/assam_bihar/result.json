@@ -1,0 +1,145 @@
+{
+  "model_arch": "ChangeFormerV6 -- Siamese Transformer Architecture",
+  "t1_path": "data/sentinel/assam_bihar/T1_2024-05-01.tif",
+  "t2_path": "data/sentinel/assam_bihar/T2_2024-09-01.tif",
+  "region": "assam_bihar",
+  "t1_date": "2024-05-01",
+  "t2_date": "2024-09-01",
+  "bbox": [
+    91.5,
+    25.5,
+    91.8,
+    25.8
+  ],
+  "threshold": 0.25,
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                91.681640625,
+                25.59609375
+              ],
+              [
+                91.681640625,
+                25.57734375
+              ],
+              [
+                91.70390625,
+                25.57734375
+              ],
+              [
+                91.70390625,
+                25.59609375
+              ],
+              [
+                91.681640625,
+                25.59609375
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "id": 1,
+          "confidence_pct": 43.4,
+          "area_km2": 4.6637,
+          "change_category": "vegetation_loss",
+          "ndvi_delta": -0.3698999881744385,
+          "pixel_area": 253
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                91.740234375,
+                25.7578125
+              ],
+              [
+                91.740234375,
+                25.743750000000002
+              ],
+              [
+                91.75546874999999,
+                25.743750000000002
+              ],
+              [
+                91.75546874999999,
+                25.7578125
+              ],
+              [
+                91.740234375,
+                25.7578125
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "id": 2,
+          "confidence_pct": 48.9,
+          "area_km2": 2.3932,
+          "change_category": "vegetation_loss",
+          "ndvi_delta": -0.3910999894142151,
+          "pixel_area": 122
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                91.78359375,
+                25.70390625
+              ],
+              [
+                91.78359375,
+                25.67109375
+              ],
+              [
+                91.79765625,
+                25.67109375
+              ],
+              [
+                91.79765625,
+                25.70390625
+              ],
+              [
+                91.78359375,
+                25.70390625
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "id": 3,
+          "confidence_pct": 46.9,
+          "area_km2": 5.1546,
+          "change_category": "vegetation_loss",
+          "ndvi_delta": -0.31060001254081726,
+          "pixel_area": 273
+        }
+      }
+    ]
+  },
+  "ai_summary": "ChangeFormerV6 (Siamese Transformer) analysed assam_bihar between 2024-05-01 and 2024-09-01. Detected 3 change polygons covering a total area of 12.21 km2, with an average model confidence of 46.4%. The dominant change type is vegetation loss (12.21 km2), concentrated in the southwest region. Vegetation removal at this scale warrants environmental review. Potential deforestation or agricultural conversion detected.",
+  "stats": {
+    "total_area_km2": 12.2115,
+    "n_polygons": 3,
+    "avg_confidence_pct": 46.4,
+    "changed_pixel_pct": 0.99,
+    "ndvi_global_delta": -0.039,
+    "categories": {
+      "vegetation_loss": 12.2115
+    }
+  }
+}

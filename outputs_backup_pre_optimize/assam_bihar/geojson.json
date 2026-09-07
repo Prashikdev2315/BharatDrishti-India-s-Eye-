@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.681640625,
+              25.59609375
+            ],
+            [
+              91.681640625,
+              25.57734375
+            ],
+            [
+              91.70390625,
+              25.57734375
+            ],
+            [
+              91.70390625,
+              25.59609375
+            ],
+            [
+              91.681640625,
+              25.59609375
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "confidence_pct": 43.4,
+        "area_km2": 4.6637,
+        "change_category": "vegetation_loss",
+        "ndvi_delta": -0.3698999881744385,
+        "pixel_area": 253
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.740234375,
+              25.7578125
+            ],
+            [
+              91.740234375,
+              25.743750000000002
+            ],
+            [
+              91.75546874999999,
+              25.743750000000002
+            ],
+            [
+              91.75546874999999,
+              25.7578125
+            ],
+            [
+              91.740234375,
+              25.7578125
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "confidence_pct": 48.9,
+        "area_km2": 2.3932,
+        "change_category": "vegetation_loss",
+        "ndvi_delta": -0.3910999894142151,
+        "pixel_area": 122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.78359375,
+              25.70390625
+            ],
+            [
+              91.78359375,
+              25.67109375
+            ],
+            [
+              91.79765625,
+              25.67109375
+            ],
+            [
+              91.79765625,
+              25.70390625
+            ],
+            [
+              91.78359375,
+              25.70390625
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "confidence_pct": 46.9,
+        "area_km2": 5.1546,
+        "change_category": "vegetation_loss",
+        "ndvi_delta": -0.31060001254081726,
+        "pixel_area": 273
+      }
+    }
+  ]
+}
